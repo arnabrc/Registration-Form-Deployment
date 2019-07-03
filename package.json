@@ -1,0 +1,35 @@
+{
+    "name": "app-project2",
+    "version": "0.0.0",
+    "description": "Education Purpose",
+    "main": "server.js",
+    "scripts": {
+        "ng": "ng",
+        "start": "node server.js",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e"
+    },
+    "backend": "tsc backend/server.ts && node backend/server.js",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "private": true,
+    "author": "Arnab",
+    "license": "ISC",
+    "dependencies": {
+        "@types/express-serve-static-core": "^4.16.7",
+        "es6-shim": "^0.35.5",
+        "express": "^4.17.1",
+        "moment": "^2.24.0",
+        "reflect-metadata": "^0.1.13"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "@babel/register": "^7.4.4",
+        "babel-preset-env": "^1.7.0"
+    }
+}
